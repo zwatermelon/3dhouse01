@@ -1,0 +1,29 @@
+.scrollbar {
+	position: absolute;
+	left: 100px;
+	bottom: 100px;
+	width: 300px;
+	height: 16px;
+	z-index: 1000;
+}
+.track {
+	position: absolute;
+	left: 1%;
+	width: 98%;
+	height: 16px;
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+.arrow-left {
+	position: absolute;
+}
+.arrow-right {
+	position: absolute;
+	right: 0px;
+}
+.bar {
+	position: absolute;
+	height: 16px;
+	width : 20px;
+	left: 25px;
+}

@@ -1,0 +1,49 @@
+/* 键盘 */
+.keyboard{width:270px; height:135px; background:url(images/normal_bg1.png) no-repeat; position:fixed; bottom:30px; left:10px;}
+/*缩放*/
+.scrollbar{width:249px;height:22px;background:url(images/zoom.png) no-repeat;position: fixed;bottom:80px;left:300px;}
+
+/* 按钮 */
+.up, .right, .down, .left,.ror ,.rol,.reset{position:absolute;}
+.up{width:95px; height:51px; left:88px; top:3px;}
+.right{width:52px; height:95px; right:68px; top:21px;}
+.down{width:97px; height:49px; left:87px; bottom:0px;}
+.left{width:51px; height:95px; left:68px; top:21px;}
+.reset{width:43px; height:43px; left:113px; top:47px;}
+.ror{width:68px; height:135px; left:0px; top:0px;}
+.rol{width:68px; height:135px; right:0px; top:0px;}
+
+
+.up_bg{background:url(images/up.png) no-repeat;}
+.right_bg{background:url(images/right.png) no-repeat;}
+.down_bg{background:url(images/down.png) no-repeat;}
+.left_bg{background:url(images/left.png) no-repeat;}
+.ror_bg{background:url(images/ror.png) no-repeat;}
+.rol_bg{background:url(images/rol.png) no-repeat;}
+.reset_bg{background:url(images/reset.png) no-repeat;}
+
+/* 按钮点击区域 */
+.up_key, .right_key, .down_key, .left_key, .ror_key , .rol_key,.reset_key{position:absolute;-webkit-tap-highlight-color:transparent;}
+.up_key:hover{none;}
+.up_key{width:34px; height:43px; left:30px; top:0px;}
+.right_key{width:43px; height:33px; right:0px; top:32px; }
+.down_key{width:34px; height:43px; left:31px; bottom:0px;}
+.left_key{width:43px; height:33px; left:0px; top:32px;}
+.reset_key{width:40px; height:40px; left:2px; top:2px;}
+.ror_key{width:68px; height:68px; left:0px; top:31px;}
+.rol_key{width:68px; height:68px; right:0px; top:31px;}
+
+/*缩放*/
+#bar {position: absolute;height: 20px;width:20px;left:133px;background:url(images/bar.png) no-repeat;}
+
+/*缩放按钮*/
+.minus,.plus{position:absolute;}
+.minus{width:23px; height:22px; left:0px; top:0px;}
+.plus{width:23px; height:22px; right:0px; top:0px;}
+/*背景图*/
+.minus_bg{background:url(images/minus.png) no-repeat;}
+.plus_bg{background:url(images/plus.png) no-repeat;}
+/*缩放按钮点击区域(和按钮区域相同)*/
+.plus_bg,.minus_bg{position:absolute;-webkit-tap-highlight-color:transparent;}
+.minus_key{width:23px; height:22px; left:0px; top:0px;}
+.plus_key{width:23px; height:22px; right:0px; top:0px;}
